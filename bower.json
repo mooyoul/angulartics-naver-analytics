@@ -1,0 +1,27 @@
+{
+  "name": "angulartics-naver-analytics",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mooyoul/angulartics-naver-analytics",
+  "authors": [
+    "Moo Yeol, Lee (Prescott) <mooyoul@gmail.com>"
+  ],
+  "description": "Naver Analytics (WCS) plugin for Angulartics",
+  "main": "./dist/angulartics-naver-analytics.min.js",
+  "keywords": [
+    "angularjs",
+    "angulartics",
+    "analytics",
+    "naver",
+    "wcs",
+    "nhn",
+    "angulartics-plugin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

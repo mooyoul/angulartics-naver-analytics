@@ -1,0 +1,36 @@
+{
+  "name": "angulartics-naver-analytics",
+  "version": "0.1.0",
+  "description": "Naver Analytics (WCS) plugin for Angulartics",
+  "main": "./lib/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "build": "mkdir -p dist && uglifyjs lib/angulartics-naver-analytics.js --compress --source-map dist/angulartics-naver-analytics.min.js.map --source-map-root .. --source-map-url ../dist/angulartics-naver-analytics.min.js.map -o dist/angulartics-naver-analytics.min.js && uglifyjs lib/wcslog.js --compress -o dist/wcslog.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mooyoul/angulartics-naver-analytics.git"
+  },
+  "keywords": [
+    "angularjs",
+    "angulartics",
+    "analytics",
+    "naver",
+    "wcs",
+    "nhn",
+    "angulartics-plugin"
+  ],
+  "author": "Moo Yeol, Lee (Prescott) <mooyoul@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mooyoul/angulartics-naver-analytics/issues"
+  },
+  "homepage": "https://github.com/mooyoul/angulartics-naver-analytics#readme",
+  "devDependencies": {
+    "uglify-js": "^2.4.24"
+  },
+  "dependencies": {
+    "angulartics": "^0.20.0"
+  }
+}
