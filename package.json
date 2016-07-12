@@ -1,6 +1,6 @@
 {
   "name": "angulartics-naver-analytics",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "Naver Analytics (WCS) plugin for Angulartics",
   "main": "./lib/index.js",
   "scripts": {
